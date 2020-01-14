@@ -4,6 +4,9 @@ function writePassword() {
     max = 128
     charset = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+"
 
+   
+   use inputed number qty to determine the character count
+   
     if yes to special characters then add special characters
     else dont add special characters
 
