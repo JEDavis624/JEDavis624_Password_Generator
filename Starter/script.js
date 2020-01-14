@@ -2,8 +2,13 @@
 var generateBtn = document.querySelector("#generate");
 
 
+
+
+
 // Write password to the #password input
-function writePassword() {
+function writePassword() { 
+  length = prompt("Select between 8 and 128 characters");
+  specialCharacters = confirm("Sepcial Characters?");
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
@@ -18,6 +23,6 @@ function copyToClipboard() {
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", writePassword)
 
 // BONUS EVENT LISTENER
