@@ -12,6 +12,8 @@ function writePassword() {
   numeric = confirm("Numbers in your password?");
   lowercase = confirm("Lowercase letters in your password?");
   uppercase = confirm("Uppercase letters in your password?");
+
+  
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
