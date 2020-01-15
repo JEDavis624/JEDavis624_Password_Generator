@@ -12,14 +12,14 @@ const key_strings = {
 
 // Write password to the #password input
 function writePassword() { 
- var length = prompt("Select between 8 and 128 characters");
- var specialCharacters = confirm("Special characters in your password?");
- var number = confirm("Numbers in your password?");
- var lowercase = confirm("Lowercase letters in your password?");
- var uppercase = confirm("Uppercase letters in your password?");
+ var passwordLength = prompt("Select between 8 and 128 characters");
+ var specialCharactersConfirm = confirm("Special characters in your password?");
+ var numberConfirm = confirm("Numbers in your password?");
+ var lowercaseConfirm = confirm("Lowercase letters in your password?");
+ var uppercaseConfirm = confirm("Uppercase letters in your password?");
 
  function generatePassword() {
-  var length = 8,
+  var length = passwordLength,
       charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
       retVal = "";
   for (var i = 0, n = charset.length; i < length; ++i) {
