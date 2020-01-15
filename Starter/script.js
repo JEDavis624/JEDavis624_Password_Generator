@@ -2,7 +2,8 @@
 var generateBtn = document.querySelector("#generate");
 
 
-
+// for loop
+for (i = 0; i = complexity)
 
 
 // Write password to the #password input
