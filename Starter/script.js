@@ -18,9 +18,15 @@ function writePassword() {
  var lowercaseConfirm = confirm("Lowercase letters in your password?");
  var uppercaseConfirm = confirm("Uppercase letters in your password?");
 
+ specialCharactersConfirm === specialCharacters;
+ numberConfirm === number;
+ lowercaseConfirm === lowercase;
+ uppercaseConfirm === uppercaser;
+
+
  function generatePassword() {
   var length = passwordLength,
-      charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+",
+      charset = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+",
       retVal = "";
   for (var i = 0, n = charset.length; i < length; ++i) {
       retVal += charset.charAt(Math.floor(Math.random() * n));
