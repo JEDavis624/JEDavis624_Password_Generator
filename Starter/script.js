@@ -1,5 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+var maxLength = 128
+var minLength = 8
 
 const key_strings = {
 	lowercase: 'abcdefghijklmnopqrstuvwxyz',
@@ -11,11 +13,12 @@ const key_strings = {
 
 // Write password to the #password input
 function writePassword() { 
-  length = prompt("Select between 8 and 128 characters");
-  specialCharacters = confirm("Special characters in your password?");
-  numeric = confirm("Numbers in your password?");
-  lowercase = confirm("Lowercase letters in your password?");
-  uppercase = confirm("Uppercase letters in your password?");
+ var length = prompt("Select between 8 and 128 characters");
+ var specialCharacters = confirm("Special characters in your password?");
+ var numeric = confirm("Numbers in your password?");
+ var lowercase = confirm("Lowercase letters in your password?");
+ var uppercase = confirm("Uppercase letters in your password?");
+
 
 
   var password = generatePassword();
