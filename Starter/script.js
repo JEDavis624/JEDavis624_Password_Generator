@@ -1,9 +1,12 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-
-// for loop
-for (i = 0; i = complexity)
+const key_strings = {
+	lowercase: 'abcdefghijklmnopqrstuvwxyz',
+	uppercase: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+	number: '0123456789',
+	symbol: '*;<>()[]{}#$?!^|'
+};
 
 
 // Write password to the #password input

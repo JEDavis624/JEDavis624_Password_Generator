@@ -18,3 +18,11 @@ function writePassword() {
 
     if yes to uppercase then add uppercase
     else dont add uppercase
+
+
+
+     length = prompt("Select between 8 and 128 characters");
+  specialCharacters = confirm("Special characters in your password?");
+  numeric = confirm("Numbers in your password?");
+  lowercase = confirm("Lowercase letters in your password?");
+  uppercase = confirm("Uppercase letters in your password?");
