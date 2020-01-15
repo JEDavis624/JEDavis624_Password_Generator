@@ -1,6 +1,6 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-
+var copyBtn = document.querySelector("#copy")
 
 
 	var lowercase = ('abcdefghijklmnopqrstuvwxyz');
@@ -47,9 +47,14 @@ function writePassword() {
 
 function copyToClipboard() {
   // BONUS 
+  document.getElementById("password").select();
+  document.execCommand("copy");
+  alert("Password Copied to Clipboard")
+
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword)
+generateBtn.addEventListener("click", writePassword);
 
 // BONUS EVENT LISTENER
+copyBtn.addEventListener("click", copyToClipboard);
