@@ -2,12 +2,12 @@
 var generateBtn = document.querySelector("#generate");
 
 
-const key_strings = {
-	lowercase: 'abcdefghijklmnopqrstuvwxyz',
-	uppercase: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
-	number: '0123456789',
-	specialCharacters: '*;<>()[]{}#$?!^|'
-};
+
+	var lowercase = ('abcdefghijklmnopqrstuvwxyz');
+	var uppercaser = ('ABCDEFGHIJKLMNOPQRSTUVWXYZ');
+	var number = ('0123456789');
+	var specialCharacters = ('*;<>()[]{}#$?!^|');
+
 
 
 // Write password to the #password input
