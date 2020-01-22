@@ -18,10 +18,11 @@ function writePassword() {
  var lowercaseConfirm = confirm("Lowercase letters in your password?");
  var uppercaseConfirm = confirm("Uppercase letters in your password?");
 
- specialCharactersConfirm === specialCharacters;
- numberConfirm === number;
- lowercaseConfirm === lowercase;
- uppercaseConfirm === uppercaser;
+// t
+ //  specialCharactersConfirm === specialCharacters;
+//  numberConfirm === number;
+//  lowercaseConfirm === lowercase;
+//  uppercaseConfirm === uppercaser;
 
 
  function generatePassword() {
